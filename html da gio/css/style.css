@@ -1,0 +1,106 @@
+#texto-video{
+    font-family:arboria, sans-serif;
+    align-content: space-between;
+    padding-left:25%;
+    padding-right:25%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+#texto{
+    background-color: #F04688;
+    font-family: "Lato", Sans-serif;  
+}
+button{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    color:white;
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    background: #F04688;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+   }
+   
+   button:hover {
+    background: #F04688;
+     color: white;
+   }
+   
+   button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+    color: white;
+   }
+   
+   button:hover svg {
+    transform: translateX(5px);
+    color: white;
+   }
+   
+   button:active {
+    transform: scale(0.95);
+    color: white;
+   }
+   form{
+       border-radius:0.5rem;
+   }
+   
+   #vaga {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    text-align: center;
+    display:inline;
+    color: #ee4284;
+   }
+   
+   #vaga:hover {
+    letter-spacing: 3px;
+    background-color: #ed2874;
+    color: hsl(0, 0%, 100%);
+    box-shadow: white;
+   }
+   
+   #vaga:active {
+    letter-spacing: 3px;
+    background-color: #e82972;
+    color: hsl(0, 0%, 100%);
+    box-shadow: white;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+   footer{
+       padding:75px 0 45px 0;
+   }
+   #p-footer{
+    float:right;
+    padding-right:12%;
+    font-weight:500;
+    display:inline;
+    }  
+   #img-footer{
+    padding-left:15%;
+    float: left;
+    }
+    #footerh2{
+        box-sizing:content-box;
+    }   
+   #h2-footer{
+    color: #3F3F3F;
+    font-size:14px;
+    margin-top:50px;
+    margin-left:15%;
+
+   }
